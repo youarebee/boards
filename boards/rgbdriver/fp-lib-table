@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name lighting)(type KiCad)(uri ${KIPRJMOD}/../../modules/lighting.pretty)(options "")(descr ""))
+)
