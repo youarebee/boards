@@ -1,0 +1,206 @@
+(pcb /Users/kohavy/Documents/youarebee/boards/rgbdriver/rgbdriver.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.2-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (rect pcb 141478 -28448 177460 -126746)
+    )
+    (plane GNDPWR (polygon B.Cu 0  141732 -126746  148844 -126746  148336 -28448  141478 -28448))
+    (plane +24V (polygon F.Cu 0  141732 -126746  148844 -126746  148336 -28448  141478 -28448))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "lighting:350ma constant current xl4001"
+      (place 350ma1 175260 -102870 front 90 (PN Led_Driver))
+      (place 350ma2 175260 -44450 front 90 (PN Led_Driver))
+      (place 350ma3 175260 -73660 front 90 (PN Led_Driver))
+    )
+    (component Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (place R1 162560 -110490 front 180 (PN 10k))
+      (place R2 160020 -52070 front 180 (PN 10k))
+      (place R3 160020 -81280 front 180 (PN 10k))
+    )
+    (component lighting:rgb.breakout
+      (place U1 150114 -124206 front 0 (PN rgb.breakout))
+    )
+  )
+  (library
+    (image "lighting:350ma constant current xl4001"
+      (outline (path signal 150  15240 27940  -2540 27940))
+      (outline (path signal 150  -2540 27940  -2540 2540))
+      (outline (path signal 150  -2540 2540  15240 2540))
+      (outline (path signal 150  15240 2540  15240 27940))
+      (pin Rect[A]Pad_4000x4000_um 3 0 0)
+      (pin Rect[A]Pad_4000x4000_um 4 12700 0)
+      (pin Rect[A]Pad_4000x4000_um 1 0 30480)
+      (pin Rect[A]Pad_4000x4000_um 2 12700 30480)
+      (pin Round[A]Pad_2000_um 5 0 22860)
+      (pin Round[A]Pad_2000_um 6 0 20320)
+    )
+    (image Resistors_ThroughHole:Resistor_Horizontal_RM10mm
+      (outline (path signal 50  -1250 1500  11400 1500))
+      (outline (path signal 50  -1250 -1500  -1250 1500))
+      (outline (path signal 50  11400 1500  11400 -1500))
+      (outline (path signal 50  -1250 -1500  11400 -1500))
+      (outline (path signal 150  2540 1270  7620 1270))
+      (outline (path signal 150  7620 1270  7620 -1270))
+      (outline (path signal 150  7620 -1270  2540 -1270))
+      (outline (path signal 150  2540 -1270  2540 1270))
+      (outline (path signal 150  2540 0  1270 0))
+      (outline (path signal 150  7620 0  8890 0))
+      (pin Round[A]Pad_1998.98_um 1 0 0)
+      (pin Round[A]Pad_1998.98_um 2 10160 0)
+    )
+    (image lighting:rgb.breakout
+      (outline (path signal 150  -1270 -1270  -3810 -1270))
+      (outline (path signal 150  -3810 3810  -1270 3810))
+      (outline (path signal 150  16510 3810  20320 3810))
+      (outline (path signal 150  20320 3810  20320 -1270))
+      (outline (path signal 150  20320 -1270  16510 -1270))
+      (outline (path signal 150  16510 -1270  20320 -1270))
+      (outline (path signal 150  -3810 3810  -3810 -1270))
+      (outline (path signal 150  -1270 -1270  16510 -1270))
+      (outline (path signal 150  20320 -1270  20320 3810))
+      (outline (path signal 150  16510 3810  -1270 3810))
+      (pin Rect[A]Pad_1524x1524_um 1 -2540 0)
+      (pin Round[A]Pad_1524_um 3 2540 0)
+      (pin Round[A]Pad_1524_um 4 5080 0)
+      (pin Round[A]Pad_1524_um @1 7620 0)
+      (pin Round[A]Pad_1524_um 9 12700 0)
+      (pin Round[A]Pad_1524_um 11 15240 0)
+      (pin Round[A]Pad_1524_um 13 17780 0)
+      (pin Round[A]Pad_1524_um 2 -2540 2540)
+      (pin Round[A]Pad_1524_um 5 2540 2540)
+      (pin Round[A]Pad_1524_um 6 5080 2540)
+      (pin Round[A]Pad_1524_um 7 7620 2540)
+      (pin Round[A]Pad_1524_um 8 12700 2540)
+      (pin Round[A]Pad_1524_um 10 15240 2540)
+      (pin Round[A]Pad_1524_um 12 17780 2540)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle B.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1998.98_um
+      (shape (circle F.Cu 1998.98))
+      (shape (circle B.Cu 1998.98))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2000_um
+      (shape (circle F.Cu 2000))
+      (shape (circle B.Cu 2000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_4000x4000_um
+      (shape (rect F.Cu -2000 -2000 2000 2000))
+      (shape (rect B.Cu -2000 -2000 2000 2000))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1524x1524_um
+      (shape (rect F.Cu -762 -762 762 762))
+      (shape (rect B.Cu -762 -762 762 762))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /r+
+      (pins 350ma1-3 U1-8)
+    )
+    (net "/r-"
+      (pins 350ma1-4 U1-9)
+    )
+    (net +24V
+      (pins 350ma1-1 350ma2-1 350ma3-1 U1-1)
+    )
+    (net GNDPWR
+      (pins 350ma1-2 350ma2-2 350ma3-2 U1-2)
+    )
+    (net "Net-(350ma1-Pad5)"
+      (pins 350ma1-5 R1-2 U1-5)
+    )
+    (net GND
+      (pins 350ma1-6 350ma2-6 350ma3-6 U1-4)
+    )
+    (net /g+
+      (pins 350ma2-3 U1-10)
+    )
+    (net "/g-"
+      (pins 350ma2-4 U1-11)
+    )
+    (net "Net-(350ma2-Pad5)"
+      (pins 350ma2-5 R2-2 U1-6)
+    )
+    (net /b+
+      (pins 350ma3-3 U1-12)
+    )
+    (net "/b-"
+      (pins 350ma3-4 U1-13)
+    )
+    (net "Net-(350ma3-Pad5)"
+      (pins 350ma3-5 R3-2 U1-7)
+    )
+    (net VCC
+      (pins R1-1 R2-1 R3-1 U1-3)
+    )
+    (class kicad_default "" GND "Net-(350ma1-Pad5)" "Net-(350ma2-Pad5)" "Net-(350ma3-Pad5)"
+      VCC
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+    (class led /b+ "/b-" /g+ "/g-" /r+ "/r-"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 1000)
+        (clearance 200.1)
+      )
+    )
+    (class power +24V GNDPWR
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
