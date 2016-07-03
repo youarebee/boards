@@ -21,10 +21,13 @@
       )
     )
     (boundary
-      (rect pcb 141478 -28448 177460 -126746)
+      (path pcb 0  139700 -27940  180340 -27940  180340 -127000  139700 -127000
+            139700 -27940  139700 -27940)
     )
-    (plane GNDPWR (polygon B.Cu 0  141732 -126746  148844 -126746  148336 -28448  141478 -28448))
-    (plane +24V (polygon F.Cu 0  141732 -126746  148844 -126746  148336 -28448  141478 -28448))
+    (plane +24V (polygon F.Cu 0  140970 -127000  149860 -127000  149860 -119380  148590 -119380
+            148590 -31750  140970 -31750))
+    (plane GNDPWR (polygon B.Cu 0  140970 -127000  149860 -127000  149860 -119380  148590 -119380
+            148590 -31750  140970 -31750))
     (via "Via[0-1]_600:400_um")
     (rule
       (width 250)
@@ -35,14 +38,14 @@
   )
   (placement
     (component "lighting:350ma constant current xl4001"
-      (place 350ma1 175260 -102870 front 90 (PN Led_Driver))
-      (place 350ma2 175260 -44450 front 90 (PN Led_Driver))
-      (place 350ma3 175260 -73660 front 90 (PN Led_Driver))
+      (place 350ma1 175260 -48260 front 90 (PN Led_Driver))
+      (place 350ma2 175260 -76200 front 90 (PN Led_Driver))
+      (place 350ma3 175260 -106680 front 90 (PN Led_Driver))
     )
     (component Resistors_ThroughHole:Resistor_Horizontal_RM10mm
-      (place R1 162560 -110490 front 180 (PN 10k))
-      (place R2 160020 -52070 front 180 (PN 10k))
-      (place R3 160020 -81280 front 180 (PN 10k))
+      (place R1 161290 -54610 front 180 (PN 10k))
+      (place R2 161290 -85090 front 180 (PN 10k))
+      (place R3 161290 -113030 front 180 (PN 10k))
     )
     (component lighting:rgb.breakout
       (place U1 150114 -124206 front 0 (PN rgb.breakout))
@@ -196,7 +199,7 @@
         (use_via Via[0-1]_600:400_um)
       )
       (rule
-        (width 250)
+        (width 1000)
         (clearance 200.1)
       )
     )
