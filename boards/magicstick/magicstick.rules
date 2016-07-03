@@ -11,12 +11,12 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 256)
+    (start_pass_no 274)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 3.4)
+      (against_preferred_direction_trace_costs 3.5)
     )
     (layer_rule B.Cu
       (active on)
@@ -67,8 +67,8 @@
     "Net-(Q1-Pad3)" "Net-(Q2-Pad2)" "Net-(Q2-Pad3)" "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q4-Pad2)" "Net-(Q4-Pad3)" +5V
     "Net-(Q5-Pad2)" "Net-(Q5-Pad3)" "Net-(Q6-Pad2)" "Net-(Q6-Pad3)" "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(RFID1-Pad1)"
     "Net-(RFID1-Pad2)" "Net-(RFID1-Pad3)" "Net-(RFID1-Pad4)" "Net-(RFID1-Pad5)" "Net-(RFID1-Pad7)" "Net-(RFID1-Pad8)" "Net-(U1-Pad1)" "Net-(U1-Pad2)"
-    "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U1-Pad10)"
-    "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad26)" "Net-(U1-Pad24)" +3V3
+    "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U1-Pad11)"
+    "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad26)" +3V3
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule

@@ -21,7 +21,8 @@
       )
     )
     (boundary
-      (rect pcb 102961 -61115.5 179273 -92415)
+      (path pcb 0  104140 -60960  102870 -60960  102870 -91440  180340 -91440
+            180340 -60960  104140 -60960  104140 -60960)
     )
     (via "Via[0-1]_600:400_um")
     (rule
@@ -240,7 +241,7 @@
       (pins D1-1 R5-2)
     )
     (net GND
-      (pins D1-2 D2-2 Q1-1 Q2-1 Q3-1 RFID1-6 U1-14 U1-17)
+      (pins D1-2 D2-2 Q1-1 Q2-1 Q3-1 RFID1-6 U1-10 U1-14 U1-17 U1-24)
     )
     (net "Net-(D1-Pad3)"
       (pins D1-3 R7-2)
@@ -353,9 +354,6 @@
     (net "Net-(U1-Pad9)"
       (pins U1-9)
     )
-    (net "Net-(U1-Pad10)"
-      (pins U1-10)
-    )
     (net "Net-(U1-Pad11)"
       (pins U1-11)
     )
@@ -374,9 +372,6 @@
     (net "Net-(U1-Pad26)"
       (pins U1-26)
     )
-    (net "Net-(U1-Pad24)"
-      (pins U1-24)
-    )
     (net +3V3
       (pins U1-25)
     )
@@ -386,9 +381,8 @@
       "Net-(Q4-Pad3)" "Net-(Q5-Pad2)" "Net-(Q5-Pad3)" "Net-(Q6-Pad2)" "Net-(Q6-Pad3)"
       "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(RFID1-Pad1)" "Net-(RFID1-Pad2)"
       "Net-(RFID1-Pad3)" "Net-(RFID1-Pad4)" "Net-(RFID1-Pad5)" "Net-(RFID1-Pad7)"
-      "Net-(RFID1-Pad8)" "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad11)"
-      "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad18)"
-      "Net-(U1-Pad19)" "Net-(U1-Pad2)" "Net-(U1-Pad24)" "Net-(U1-Pad25)" "Net-(U1-Pad26)"
+      "Net-(RFID1-Pad8)" "Net-(U1-Pad1)" "Net-(U1-Pad11)" "Net-(U1-Pad12)"
+      "Net-(U1-Pad13)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad2)" "Net-(U1-Pad26)"
       "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)"
       "Net-(U1-Pad8)" "Net-(U1-Pad9)"
       (circuit
