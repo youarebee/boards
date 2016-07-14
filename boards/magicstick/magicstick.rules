@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 274)
+    (start_pass_no 356)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -41,10 +41,16 @@
     (attach off)
   )
   (via 
+    "Via[0-1]_600:400_um-Power" "Via[0-1]_600:400_um" Power
+  )
+  (via 
     "Via[0-1]_600:400_um" "Via[0-1]_600:400_um" default
   )
   (via 
     "Via[0-1]_600:400_um-kicad_default" "Via[0-1]_600:400_um" "kicad_default"
+  )
+  (via_rule
+    Power "Via[0-1]_600:400_um-Power"
   )
   (via_rule
     default "Via[0-1]_600:400_um"
@@ -63,16 +69,27 @@
     )
   )
   (class "kicad_default"
-    "Net-(D1-Pad1)" GND "Net-(D1-Pad3)" "Net-(D1-Pad4)" "Net-(D2-Pad1)" "Net-(D2-Pad3)" "Net-(D2-Pad4)" "Net-(Q1-Pad2)"
-    "Net-(Q1-Pad3)" "Net-(Q2-Pad2)" "Net-(Q2-Pad3)" "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q4-Pad2)" "Net-(Q4-Pad3)" +5V
-    "Net-(Q5-Pad2)" "Net-(Q5-Pad3)" "Net-(Q6-Pad2)" "Net-(Q6-Pad3)" "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(RFID1-Pad1)"
-    "Net-(RFID1-Pad2)" "Net-(RFID1-Pad3)" "Net-(RFID1-Pad4)" "Net-(RFID1-Pad5)" "Net-(RFID1-Pad7)" "Net-(RFID1-Pad8)" "Net-(U1-Pad1)" "Net-(U1-Pad2)"
-    "Net-(U1-Pad3)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U1-Pad11)"
-    "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad26)" +3V3
+    "Net-(D1-Pad1)" "Net-(D1-Pad3)" "Net-(D1-Pad4)" "Net-(D2-Pad1)" "Net-(D2-Pad3)" "Net-(D2-Pad4)" "Net-(Q1-Pad2)" "Net-(Q1-Pad3)"
+    "Net-(Q2-Pad2)" "Net-(Q2-Pad3)" "Net-(Q3-Pad2)" "Net-(Q3-Pad3)" "Net-(Q4-Pad2)" "Net-(Q4-Pad3)" "Net-(Q5-Pad2)" "Net-(Q5-Pad3)"
+    "Net-(Q6-Pad2)" "Net-(Q6-Pad3)" "Net-(R1-Pad2)" "Net-(R2-Pad2)" "Net-(R3-Pad2)" "Net-(RFID1-Pad1)" "Net-(RFID1-Pad2)" "Net-(RFID1-Pad3)"
+    "Net-(RFID1-Pad4)" "Net-(RFID1-Pad5)" "Net-(RFID1-Pad7)" "Net-(RFID1-Pad8)" "Net-(U1-Pad1)" "Net-(U1-Pad2)" "Net-(U1-Pad3)" "Net-(U1-Pad4)"
+    "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U1-Pad9)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad13)"
+    "Net-(U1-Pad18)" "Net-(U1-Pad19)" "Net-(U1-Pad26)" +3V3
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
       (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class Power
+    GND +5V
+    (clearance_class Power)
+    (via_rule Power)
+    (rule
+      (width 500.0)
     )
     (circuit 
       (use_layer F.Cu B.Cu)
