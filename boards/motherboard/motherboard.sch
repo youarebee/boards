@@ -56,10 +56,10 @@ F 3 "" H 9550 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +24V #PWR01
+L +24V #PWR1
 U 1 1 5787E774
 P 8600 1350
-F 0 "#PWR01" H 8600 1200 50  0001 C CNN
+F 0 "#PWR1" H 8600 1200 50  0001 C CNN
 F 1 "+24V" H 8600 1490 50  0000 C CNN
 F 2 "" H 8600 1350 50  0000 C CNN
 F 3 "" H 8600 1350 50  0000 C CNN
@@ -67,10 +67,10 @@ F 3 "" H 8600 1350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDPWR #PWR02
+L GNDPWR #PWR2
 U 1 1 5787E79E
 P 9150 1250
-F 0 "#PWR02" H 9150 1050 50  0001 C CNN
+F 0 "#PWR2" H 9150 1050 50  0001 C CNN
 F 1 "GNDPWR" H 9150 1120 50  0000 C CNN
 F 2 "" H 9150 1200 50  0000 C CNN
 F 3 "" H 9150 1200 50  0000 C CNN
@@ -113,12 +113,12 @@ $EndComp
 $Comp
 L Led_Driver 350ma1
 U 1 1 5787EC48
-P 5100 1700
-F 0 "350ma1" H 5100 1700 60  0000 C CNN
-F 1 "Led_Driver" H 5150 1800 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 5100 1700 60  0001 C CNN
-F 3 "" H 5100 1700 60  0000 C CNN
-	1    5100 1700
+P 5050 1700
+F 0 "350ma1" H 5050 1700 60  0000 C CNN
+F 1 "Led_Driver" H 5100 1800 60  0000 C CNN
+F 2 "lighting:350ma constant current xl4001" H 5050 1700 60  0001 C CNN
+F 3 "" H 5050 1700 60  0000 C CNN
+	1    5050 1700
 	1    0    0    -1  
 $EndComp
 Text Label 10350 2250 0    60   ~ 0
@@ -135,11 +135,11 @@ Text Label 6650 1050 0    60   ~ 0
 gndpwr
 Text Label 5650 1050 0    60   ~ 0
 vpwr
-Text Label 5600 1200 0    60   ~ 0
+Text Label 5550 1200 0    60   ~ 0
 gndpwr
-Text Label 4600 1200 0    60   ~ 0
+Text Label 4550 1200 0    60   ~ 0
 vpwr
-Text Label 4600 1500 0    60   ~ 0
+Text Label 4550 1500 0    60   ~ 0
 gnd
 Text Label 5650 1350 0    60   ~ 0
 gnd
@@ -292,25 +292,14 @@ F 3 "" H 3700 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Led_Driver 350ma11
-U 1 1 5787FC55
-P 2600 3850
-F 0 "350ma11" H 2600 3850 60  0000 C CNN
-F 1 "Led_Driver" H 2650 3950 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 2600 3850 60  0001 C CNN
-F 3 "" H 2600 3850 60  0000 C CNN
-	1    2600 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Led_Driver 350ma10
 U 1 1 5787FC5B
-P 1550 4000
-F 0 "350ma10" H 1550 4000 60  0000 C CNN
-F 1 "Led_Driver" H 1600 4100 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 1550 4000 60  0001 C CNN
-F 3 "" H 1550 4000 60  0000 C CNN
-	1    1550 4000
+P 1250 4000
+F 0 "350ma10" H 1250 4000 60  0000 C CNN
+F 1 "Led_Driver" H 1300 4100 60  0000 C CNN
+F 2 "lighting:350ma constant current xl4001" H 1250 4000 60  0001 C CNN
+F 3 "" H 1250 4000 60  0000 C CNN
+	1    1250 4000
 	1    0    0    -1  
 $EndComp
 Text Label 3200 3500 0    60   ~ 0
@@ -319,11 +308,11 @@ Text Label 3100 3350 0    60   ~ 0
 gndpwr
 Text Label 2100 3350 0    60   ~ 0
 vpwr
-Text Label 2050 3500 0    60   ~ 0
+Text Label 1750 3500 0    60   ~ 0
 gndpwr
-Text Label 1050 3500 0    60   ~ 0
+Text Label 750  3500 0    60   ~ 0
 vpwr
-Text Label 1050 3800 0    60   ~ 0
+Text Label 750  3800 0    60   ~ 0
 gnd
 Text Label 2100 3650 0    60   ~ 0
 gnd
@@ -439,15 +428,15 @@ led2
 $Comp
 L R R2
 U 1 1 57881E5D
-P 5550 800
-F 0 "R2" V 5630 800 50  0000 C CNN
-F 1 "10k" V 5550 800 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5480 800 50  0001 C CNN
-F 3 "" H 5550 800 50  0000 C CNN
-	1    5550 800 
+P 5600 750
+F 0 "R2" V 5680 750 50  0000 C CNN
+F 1 "10k" V 5600 750 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5530 750 50  0001 C CNN
+F 3 "" H 5600 750 50  0000 C CNN
+	1    5600 750 
 	1    0    0    -1  
 $EndComp
-Text Label 5550 650  0    60   ~ 0
+Text Label 5600 600  0    60   ~ 0
 vcc
 $Comp
 L R R1
@@ -545,12 +534,12 @@ vcc
 $Comp
 L R R12
 U 1 1 5788238C
-P 3050 3100
-F 0 "R12" V 3130 3100 50  0000 C CNN
-F 1 "10k" V 3050 3100 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2980 3100 50  0001 C CNN
-F 3 "" H 3050 3100 50  0000 C CNN
-	1    3050 3100
+P 3150 3100
+F 0 "R12" V 3230 3100 50  0000 C CNN
+F 1 "10k" V 3150 3100 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3080 3100 50  0001 C CNN
+F 3 "" H 3150 3100 50  0000 C CNN
+	1    3150 3100
 	1    0    0    -1  
 $EndComp
 Text Label 3050 2950 0    60   ~ 0
@@ -571,15 +560,15 @@ vcc
 $Comp
 L R R10
 U 1 1 5788239A
-P 850 3400
-F 0 "R10" V 930 3400 50  0000 C CNN
-F 1 "10k" V 850 3400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 780 3400 50  0001 C CNN
-F 3 "" H 850 3400 50  0000 C CNN
-	1    850  3400
+P 550 3400
+F 0 "R10" V 630 3400 50  0000 C CNN
+F 1 "10k" V 550 3400 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 480 3400 50  0001 C CNN
+F 3 "" H 550 3400 50  0000 C CNN
+	1    550  3400
 	1    0    0    -1  
 $EndComp
-Text Label 850  3250 0    60   ~ 0
+Text Label 550  3250 0    60   ~ 0
 vcc
 $Comp
 L R R15
@@ -677,9 +666,9 @@ Wire Wire Line
 Wire Wire Line
 	2850 5200 2850 5150
 Wire Wire Line
-	1050 5200 2850 5200
+	750  5200 2850 5200
 Wire Wire Line
-	1050 4100 1050 5200
+	750  4100 750  5200
 Wire Wire Line
 	2050 5150 2750 5150
 Wire Wire Line
@@ -771,15 +760,9 @@ Wire Wire Line
 Wire Wire Line
 	6400 2900 6400 2850
 Wire Wire Line
-	4600 2900 6400 2900
+	4550 2900 6400 2900
 Wire Wire Line
-	4600 1800 4600 2900
-Wire Wire Line
-	5600 2850 6300 2850
-Wire Wire Line
-	5600 1800 5600 2850
-Wire Wire Line
-	7100 3450 7100 3900
+	5550 2850 6300 2850
 Wire Wire Line
 	5850 3450 5850 3750
 Wire Wire Line
@@ -791,9 +774,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 3550 2100 3550
 Wire Wire Line
-	850  3550 850  3700
+	550  3550 550  3700
 Wire Wire Line
-	850  3700 1050 3700
+	550  3700 750  3700
 Wire Wire Line
 	3250 5700 3250 6150
 Wire Wire Line
@@ -805,13 +788,7 @@ Wire Wire Line
 Wire Wire Line
 	800  6150 850  6150
 Wire Wire Line
-	5550 950  5550 1250
-Wire Wire Line
-	5550 1250 5650 1250
-Wire Wire Line
 	4500 950  4500 1400
-Wire Wire Line
-	4500 1400 4600 1400
 Wire Wire Line
 	3100 950  3100 1400
 Wire Wire Line
@@ -826,7 +803,7 @@ Wire Wire Line
 	800  1400 850  1400
 Text Label 4500 950  0    60   ~ 0
 led0
-Text Label 5550 950  0    60   ~ 0
+Text Label 5600 900  0    60   ~ 0
 led1
 Text Label 800  950  0    60   ~ 0
 led3
@@ -838,11 +815,11 @@ Text Label 4600 3450 0    60   ~ 0
 led6
 Text Label 5850 3450 0    60   ~ 0
 led7
-Text Label 850  3550 0    60   ~ 0
+Text Label 550  3550 0    60   ~ 0
 led9
 Text Label 1950 3550 0    60   ~ 0
 led10
-Text Label 3050 3250 0    60   ~ 0
+Text Label 3150 3250 0    60   ~ 0
 led11
 Text Label 800  5700 0    60   ~ 0
 led12
@@ -853,10 +830,6 @@ led14
 NoConn ~ 10350 2850
 NoConn ~ 10350 2750
 NoConn ~ 10350 2350
-Wire Wire Line
-	3050 3250 3050 3700
-Wire Wire Line
-	3050 3700 3200 3700
 Wire Wire Line
 	1950 3350 1950 3550
 NoConn ~ 7200 2050
@@ -877,10 +850,10 @@ NoConn ~ 3600 6800
 NoConn ~ 3300 7600
 NoConn ~ 3400 7600
 $Comp
-L GND #PWR03
+L GND #PWR4
 U 1 1 57888F25
 P 10100 1550
-F 0 "#PWR03" H 10100 1300 50  0001 C CNN
+F 0 "#PWR4" H 10100 1300 50  0001 C CNN
 F 1 "GND" H 10100 1400 50  0000 C CNN
 F 2 "" H 10100 1550 50  0000 C CNN
 F 3 "" H 10100 1550 50  0000 C CNN
@@ -888,10 +861,10 @@ F 3 "" H 10100 1550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR04
+L VCC #PWR3
 U 1 1 57888F81
 P 9800 1550
-F 0 "#PWR04" H 9800 1400 50  0001 C CNN
+F 0 "#PWR3" H 9800 1400 50  0001 C CNN
 F 1 "VCC" H 9800 1700 50  0000 C CNN
 F 2 "" H 9800 1550 50  0000 C CNN
 F 3 "" H 9800 1550 50  0000 C CNN
@@ -920,4 +893,96 @@ Wire Wire Line
 	6700 1400 6700 950 
 Wire Wire Line
 	6700 950  6650 950 
+Wire Wire Line
+	2050 4100 1750 4100
+$Comp
+L Led_Driver 350ma11
+U 1 1 5787FC55
+P 2600 3850
+F 0 "350ma11" H 2600 3850 60  0000 C CNN
+F 1 "Led_Driver" H 2650 3950 60  0000 C CNN
+F 2 "lighting:350ma constant current xl4001" H 2600 3850 60  0001 C CNN
+F 3 "" H 2600 3850 60  0000 C CNN
+	1    2600 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3250 3150 3700
+Wire Wire Line
+	3150 3700 3200 3700
+Wire Wire Line
+	5600 900  5600 1250
+Wire Wire Line
+	5600 1250 5650 1250
+Wire Wire Line
+	4500 1400 4550 1400
+Wire Wire Line
+	5550 1800 5550 2850
+Wire Wire Line
+	4550 1800 4550 2900
+Wire Wire Line
+	7100 3450 7100 3600
+Wire Wire Line
+	7100 3600 7050 3600
+Wire Wire Line
+	7050 3600 7050 3900
+Wire Wire Line
+	7050 3900 7100 3900
+$Comp
+L CONN_01X04 P2
+U 1 1 578839F0
+P 10350 3900
+F 0 "P2" H 10350 4150 50  0000 C CNN
+F 1 "CONN_01X04" V 10450 3900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10350 3900 50  0000 C CNN
+F 3 "" H 10350 3900 50  0000 C CNN
+	1    10350 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 P3
+U 1 1 57883A8C
+P 10350 4550
+F 0 "P3" H 10350 4800 50  0000 C CNN
+F 1 "CONN_01X04" V 10450 4550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10350 4550 50  0000 C CNN
+F 3 "" H 10350 4550 50  0000 C CNN
+	1    10350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 57883AF1
+P 10200 1000
+F 0 "P1" H 10200 1150 50  0000 C CNN
+F 1 "CONN_01X02" V 10300 1000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10200 1000 50  0000 C CNN
+F 3 "" H 10200 1000 50  0000 C CNN
+	1    10200 1000
+	1    0    0    -1  
+$EndComp
+Text Label 10000 950  0    60   ~ 0
+vpwr
+Text Label 10000 1050 0    60   ~ 0
+gndpwr
+Text Label 10150 3750 0    60   ~ 0
+vcc
+Text Label 10150 4400 0    60   ~ 0
+vcc
+Text Label 10150 3850 0    60   ~ 0
+sda
+Text Label 10150 4500 0    60   ~ 0
+sda
+Text Label 10350 2550 0    60   ~ 0
+sda
+Text Label 10350 2450 0    60   ~ 0
+scl
+Text Label 10150 3950 0    60   ~ 0
+scl
+Text Label 10150 4600 0    60   ~ 0
+scl
+Text Label 10150 4050 0    60   ~ 0
+gnd
+Text Label 10150 4700 0    60   ~ 0
+gnd
 $EndSCHEMATC
