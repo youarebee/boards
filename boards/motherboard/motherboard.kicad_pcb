@@ -201,7 +201,7 @@
 
   (net_class 24vpower ""
     (clearance 0.2)
-    (trace_width 2)
+    (trace_width 8)
     (via_dia 0.6)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -1519,7 +1519,7 @@
 
   (gr_line (start 53.34 139.7) (end 53.34 76.2) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 276.86 139.7) (end 53.34 139.7) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 276.86 77.47) (end 276.86 139.7) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 276.86 76.2) (end 276.86 139.7) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 276.86 76.2) (end 53.34 76.2) (angle 90) (layer Edge.Cuts) (width 0.15))
 
 )
