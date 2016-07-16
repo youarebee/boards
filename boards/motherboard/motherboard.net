@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/kohavy/Documents/youarebee/boards/motherboard/motherboard.sch)
-    (date "Friday, July 15, 2016 'PMt' 11:54:23 PM")
+    (date "Saturday, July 16, 2016 'AMt' 09:54:05 AM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -344,10 +344,10 @@
   (libraries
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
-    (library (logical conn)
-      (uri "/Library/Application Support/kicad/library/conn.lib"))
     (library (logical lighting)
-      (uri /Users/kohavy/Documents/youarebee/libraries/lighting.lib)))
+      (uri /Users/kohavy/Documents/youarebee/libraries/lighting.lib))
+    (library (logical conn)
+      (uri "/Library/Application Support/kicad/library/conn.lib")))
   (nets
     (net (code 1) (name "Net-(350ma5-Pad4)")
       (node (ref J2) (pin 3))
