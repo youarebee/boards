@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  104140 -60960  102870 -60960  102870 -91440  180340 -91440
-            180340 -60960  104140 -60960  104140 -60960)
+      (path pcb 0  145288 -38100  145288 -64770  203708 -64770  203708 -38100
+            145288 -38100  145288 -38100)
     )
     (via "Via[0-1]_600:400_um")
     (rule
@@ -33,43 +33,57 @@
     )
   )
   (placement
+    (component "Mounting_Holes:MountingHole_2-5mm"
+      (place REF4 200914 -40894 front 0 (PN "MountingHole_2-5mm"))
+      (place REF3 200914 -61976 front 0 (PN "MountingHole_2-5mm"))
+      (place REF1 152654 -40894 front 0 (PN "MountingHole_2-5mm"))
+    )
     (component "LEDs:LED-RGB-5MM_Common_Cathode"
-      (place D1 175260 -68580 front 0 (PN LED_RCBG))
-      (place D2 175260 -86360 front 180 (PN LED_RCBG))
+      (place D1 201549 -58293 back 180 (PN LED_RCBG))
+      (place D2 201295 -44704 front 0 (PN LED_RCBG))
     )
     (component "TO_SOT_Packages_THT:TO-92_Inline_Narrow_Oval"
-      (place Q1 129540 -69850 front 0 (PN 2N2222))
-      (place Q2 129540 -76962 front 0 (PN 2N2222))
-      (place Q3 129540 -83820 front 0 (PN 2N2222))
-      (place Q4 151130 -69850 front 0 (PN 2N2907))
-      (place Q5 151130 -77470 front 0 (PN 2N2907))
-      (place Q6 151130 -83820 front 0 (PN 2N2907))
+      (place Q1 161925 -46990 front 0 (PN 2N2222))
+      (place Q2 161925 -55880 front 0 (PN 2N2222))
+      (place Q3 161925 -51435 front 0 (PN 2N2222))
+      (place Q4 180594 -47244 front 0 (PN 2N2907))
+      (place Q5 180594 -51689 front 0 (PN 2N2907))
+      (place Q6 180594 -56134 front 0 (PN 2N2907))
     )
     (component Resistors_ThroughHole:Resistor_Horizontal_RM10mm
-      (place R1 124460 -69850 front 180 (PN 1k))
-      (place R2 124460 -73660 front 180 (PN 1k))
-      (place R3 124460 -77470 front 180 (PN 1k))
-      (place R4 146050 -68580 front 180 (PN 1k))
-      (place R5 157480 -66040 front 0 (PN 32))
-      (place R6 157480 -73660 front 0 (PN 21))
-      (place R7 157480 -69850 front 0 (PN 21))
-      (place R8 157480 -80010 front 0 (PN 32))
-      (place R9 157480 -87630 front 0 (PN 21))
-      (place R10 157480 -83820 front 0 (PN 21))
-      (place R11 146050 -76200 front 180 (PN 1k))
-      (place R12 146050 -80010 front 180 (PN 1k))
-      (place R13 135890 -72390 front 0 (PN 10k))
-      (place R14 124460 -83820 front 180 (PN 10k))
-      (place R15 135890 -83820 front 0 (PN 10k))
+      (place R1 151765 -56515 front 90 (PN 1k))
+      (place R2 154940 -56515 front 90 (PN 1k))
+      (place R3 158115 -56515 front 90 (PN 1k))
+      (place R4 177736 -58991.5 front 180 (PN 1k))
+      (place R5 186182 -46736 front 0 (PN 32))
+      (place R6 186182 -52832 front 0 (PN 21))
+      (place R7 186182 -58928 front 0 (PN 21))
+      (place R8 186182 -43688 front 0 (PN 32))
+      (place R9 186182 -49784 front 0 (PN 21))
+      (place R10 186182 -55880 front 0 (PN 21))
+      (place R11 177736 -56070.5 front 180 (PN 1k))
+      (place R12 177736 -53149.5 front 180 (PN 1k))
+      (place R13 177736 -50228.5 front 180 (PN 10k))
+      (place R14 177736 -47307.5 front 180 (PN 10k))
+      (place R15 177736 -44386.5 front 180 (PN 10k))
     )
     (component Pin_Headers:Pin_Header_Straight_1x08
-      (place RFID1 107950 -85090 front 180 (PN "RFID-RC522"))
+      (place RFID1 147828 -42926 back 0 (PN "RFID-RC522"))
     )
     (component nodemcu:NodeMCU_Amica_R2
-      (place U1 149860 -64770 front 270 (PN NodeMCU_Amica_R2))
+      (place U1 192532 -39751 front 270 (PN NodeMCU_Amica_R2))
     )
   )
   (library
+    (image "Mounting_Holes:MountingHole_2-5mm"
+      (outline (path signal 381  2500 0  2377.64 -772.542  2022.54 -1469.46  1469.46 -2022.54
+            772.542 -2377.64  0 -2500  -772.542 -2377.64  -1469.46 -2022.54
+            -2022.54 -1469.46  -2377.64 -772.542  -2500 0  -2377.64 772.542
+            -2022.54 1469.46  -1469.46 2022.54  -772.542 2377.64  0 2500
+            772.542 2377.64  1469.46 2022.54  2022.54 1469.46  2377.64 772.542))
+      (keepout "" (circle F.Cu 2500))
+      (keepout "" (circle B.Cu 2500))
+    )
     (image "LEDs:LED-RGB-5MM_Common_Cathode"
       (outline (path signal 50  3200 -1905  3043.38 -2893.85  2588.85 -3785.91  1880.91 -4493.85
             988.854 -4948.38  0 -5105  -988.854 -4948.38  -1880.91 -4493.85
@@ -286,7 +300,7 @@
       (pins Q4-3 R5-1 R8-1)
     )
     (net +5V
-      (pins Q4-1 Q5-1 Q6-1 U1-15 R13-2 R14-2 R15-2)
+      (pins Q4-1 Q5-1 Q6-1 R13-2 R14-2 R15-2 U1-15)
     )
     (net "Net-(Q5-Pad2)"
       (pins Q5-2 R11-1 R14-1)

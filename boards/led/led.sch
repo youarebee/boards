@@ -67,17 +67,17 @@ F 3 "" H 5050 2700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 3150 4700 3700
+	4700 1950 4700 3700
 Wire Wire Line
 	4700 3700 4850 3700
 Wire Wire Line
-	4800 3150 4800 3400
+	4800 1950 4800 3400
 Wire Wire Line
 	4800 3400 5250 3400
 Wire Wire Line
 	5250 3400 5250 3700
 Wire Wire Line
-	4900 3150 4900 3250
+	4900 1950 4900 3250
 Wire Wire Line
 	4900 3250 4550 3250
 Wire Wire Line
@@ -85,7 +85,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 3900 4850 3900
 Wire Wire Line
-	5000 3150 5000 3350
+	5000 1950 5000 3350
 Wire Wire Line
 	5000 3350 5300 3350
 Wire Wire Line
@@ -93,7 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3900 5250 3900
 Wire Wire Line
-	5100 3150 5100 3300
+	5100 1950 5100 3300
 Wire Wire Line
 	5100 3300 4500 3300
 Wire Wire Line
@@ -101,7 +101,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4100 4850 4100
 Wire Wire Line
-	5200 3150 5200 3300
+	5200 1950 5200 3300
 Wire Wire Line
 	5200 3300 5350 3300
 Wire Wire Line
@@ -109,6 +109,25 @@ Wire Wire Line
 Wire Wire Line
 	5350 4100 5250 4100
 NoConn ~ 5600 2350
-NoConn ~ 5300 3150
-NoConn ~ 5400 3150
+$Comp
+L CONN_01X08 P1
+U 1 1 578D0BE9
+P 5050 1750
+F 0 "P1" H 5050 2200 50  0000 C CNN
+F 1 "CONN_01X08" V 5150 1750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 5050 1750 50  0000 C CNN
+F 3 "" H 5050 1750 50  0000 C CNN
+	1    5050 1750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 3150
+Connection ~ 4800 3150
+Connection ~ 4900 3150
+Connection ~ 5000 3150
+Connection ~ 5100 3150
+Connection ~ 5200 3150
+Wire Wire Line
+	5300 3150 5300 1950
+Wire Wire Line
+	5400 3150 5400 1950
 $EndSCHEMATC
