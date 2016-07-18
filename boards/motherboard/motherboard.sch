@@ -94,7 +94,7 @@ U 1 1 5787EC3C
 P 7250 1700
 F 0 "350ma3" H 7250 1700 60  0000 C CNN
 F 1 "Led_Driver" H 7300 1800 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 7250 1700 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 7250 1700 60  0001 C CNN
 F 3 "" H 7250 1700 60  0000 C CNN
 	1    7250 1700
 	1    0    0    -1  
@@ -105,7 +105,7 @@ U 1 1 5787EC42
 P 6150 1550
 F 0 "350ma2" H 6150 1550 60  0000 C CNN
 F 1 "Led_Driver" H 6200 1650 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 6150 1550 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 6150 1550 60  0001 C CNN
 F 3 "" H 6150 1550 60  0000 C CNN
 	1    6150 1550
 	1    0    0    -1  
@@ -116,7 +116,7 @@ U 1 1 5787EC48
 P 5050 1700
 F 0 "350ma1" H 5050 1700 60  0000 C CNN
 F 1 "Led_Driver" H 5100 1800 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 5050 1700 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 5050 1700 60  0001 C CNN
 F 3 "" H 5050 1700 60  0000 C CNN
 	1    5050 1700
 	1    0    0    -1  
@@ -162,7 +162,7 @@ U 1 1 5787FAD3
 P 7600 4200
 F 0 "350ma9" H 7600 4200 60  0000 C CNN
 F 1 "Led_Driver" H 7650 4300 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 7600 4200 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 7600 4200 60  0001 C CNN
 F 3 "" H 7600 4200 60  0000 C CNN
 	1    7600 4200
 	1    0    0    -1  
@@ -173,7 +173,7 @@ U 1 1 5787FAD9
 P 6500 4050
 F 0 "350ma8" H 6500 4050 60  0000 C CNN
 F 1 "Led_Driver" H 6550 4150 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 6500 4050 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 6500 4050 60  0001 C CNN
 F 3 "" H 6500 4050 60  0000 C CNN
 	1    6500 4050
 	1    0    0    -1  
@@ -184,7 +184,7 @@ U 1 1 5787FADF
 P 5250 4200
 F 0 "350ma7" H 5250 4200 60  0000 C CNN
 F 1 "Led_Driver" H 5300 4300 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 5250 4200 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 5250 4200 60  0001 C CNN
 F 3 "" H 5250 4200 60  0000 C CNN
 	1    5250 4200
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 5787FC1E
 P 3650 1700
 F 0 "350ma6" H 3650 1700 60  0000 C CNN
 F 1 "Led_Driver" H 3700 1800 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 3650 1700 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 3650 1700 60  0001 C CNN
 F 3 "" H 3650 1700 60  0000 C CNN
 	1    3650 1700
 	1    0    0    -1  
@@ -235,7 +235,7 @@ U 1 1 5787FC24
 P 2550 1550
 F 0 "350ma5" H 2550 1550 60  0000 C CNN
 F 1 "Led_Driver" H 2600 1650 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 2550 1550 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 2550 1550 60  0001 C CNN
 F 3 "" H 2550 1550 60  0000 C CNN
 	1    2550 1550
 	1    0    0    -1  
@@ -246,7 +246,7 @@ U 1 1 5787FC2A
 P 1350 1700
 F 0 "350ma4" H 1350 1700 60  0000 C CNN
 F 1 "Led_Driver" H 1400 1800 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 1350 1700 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 1350 1700 60  0001 C CNN
 F 3 "" H 1350 1700 60  0000 C CNN
 	1    1350 1700
 	1    0    0    -1  
@@ -286,7 +286,7 @@ U 1 1 5787FC4F
 P 3700 4000
 F 0 "350ma12" H 3700 4000 60  0000 C CNN
 F 1 "Led_Driver" H 3750 4100 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 3700 4000 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 3700 4000 60  0001 C CNN
 F 3 "" H 3700 4000 60  0000 C CNN
 	1    3700 4000
 	1    0    0    -1  
@@ -297,7 +297,7 @@ U 1 1 5787FC5B
 P 1250 4000
 F 0 "350ma10" H 1250 4000 60  0000 C CNN
 F 1 "Led_Driver" H 1300 4100 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 1250 4000 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 1250 4000 60  0001 C CNN
 F 3 "" H 1250 4000 60  0000 C CNN
 	1    1250 4000
 	1    0    0    -1  
@@ -335,7 +335,7 @@ U 1 1 5787FECD
 P 3900 6450
 F 0 "350ma15" H 3900 6450 60  0000 C CNN
 F 1 "Led_Driver" H 3950 6550 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 3900 6450 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 3900 6450 60  0001 C CNN
 F 3 "" H 3900 6450 60  0000 C CNN
 	1    3900 6450
 	1    0    0    -1  
@@ -346,7 +346,7 @@ U 1 1 5787FED3
 P 2550 6300
 F 0 "350ma14" H 2550 6300 60  0000 C CNN
 F 1 "Led_Driver" H 2600 6400 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 2550 6300 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 2550 6300 60  0001 C CNN
 F 3 "" H 2550 6300 60  0000 C CNN
 	1    2550 6300
 	1    0    0    -1  
@@ -357,7 +357,7 @@ U 1 1 5787FED9
 P 1350 6450
 F 0 "350ma13" H 1350 6450 60  0000 C CNN
 F 1 "Led_Driver" H 1400 6550 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 1350 6450 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 1350 6450 60  0001 C CNN
 F 3 "" H 1350 6450 60  0000 C CNN
 	1    1350 6450
 	1    0    0    -1  
@@ -901,7 +901,7 @@ U 1 1 5787FC55
 P 2600 3850
 F 0 "350ma11" H 2600 3850 60  0000 C CNN
 F 1 "Led_Driver" H 2650 3950 60  0000 C CNN
-F 2 "lighting:350ma constant current xl4001" H 2600 3850 60  0001 C CNN
+F 2 "lighting:350ma_constant_current_xl4001" H 2600 3850 60  0001 C CNN
 F 3 "" H 2600 3850 60  0000 C CNN
 	1    2600 3850
 	1    0    0    -1  
@@ -929,10 +929,10 @@ Wire Wire Line
 Wire Wire Line
 	7050 3900 7100 3900
 $Comp
-L CONN_01X04 P2
+L CONN_01X04 ICC1
 U 1 1 578839F0
 P 10350 3900
-F 0 "P2" H 10350 4150 50  0000 C CNN
+F 0 "ICC1" H 10350 4150 50  0000 C CNN
 F 1 "CONN_01X04" V 10450 3900 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10350 3900 50  0000 C CNN
 F 3 "" H 10350 3900 50  0000 C CNN
@@ -940,10 +940,10 @@ F 3 "" H 10350 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P3
+L CONN_01X04 ICC2
 U 1 1 57883A8C
 P 10350 4550
-F 0 "P3" H 10350 4800 50  0000 C CNN
+F 0 "ICC2" H 10350 4800 50  0000 C CNN
 F 1 "CONN_01X04" V 10450 4550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10350 4550 50  0000 C CNN
 F 3 "" H 10350 4550 50  0000 C CNN
@@ -951,19 +951,19 @@ F 3 "" H 10350 4550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P1
+L CONN_01X02 BLK1
 U 1 1 57883AF1
-P 10200 1000
-F 0 "P1" H 10200 1150 50  0000 C CNN
-F 1 "CONN_01X02" V 10300 1000 50  0000 C CNN
-F 2 "lighting:TerminalBlock" H 10200 1000 50  0000 C CNN
-F 3 "" H 10200 1000 50  0000 C CNN
-	1    10200 1000
+P 10850 650
+F 0 "BLK1" H 10850 800 50  0000 C CNN
+F 1 "CONN_01X02" V 10950 650 50  0000 C CNN
+F 2 "lighting:TerminalBlock" H 10850 650 50  0000 C CNN
+F 3 "" H 10850 650 50  0000 C CNN
+	1    10850 650 
 	1    0    0    -1  
 $EndComp
-Text Label 10000 950  0    60   ~ 0
+Text Label 10650 600  0    60   ~ 0
 vpwr
-Text Label 10000 1050 0    60   ~ 0
+Text Label 10550 1150 0    60   ~ 0
 gndpwr
 Text Label 10150 3750 0    60   ~ 0
 vcc
@@ -985,4 +985,19 @@ Text Label 10150 4050 0    60   ~ 0
 gnd
 Text Label 10150 4700 0    60   ~ 0
 gnd
+$Comp
+L CONN_01X02 BLK2
+U 1 1 578D0231
+P 10750 1200
+F 0 "BLK2" H 10750 1350 50  0000 C CNN
+F 1 "CONN_01X02" V 10850 1200 50  0000 C CNN
+F 2 "lighting:TerminalBlock" H 10750 1200 50  0000 C CNN
+F 3 "" H 10750 1200 50  0000 C CNN
+	1    10750 1200
+	1    0    0    -1  
+$EndComp
+Text Label 10650 700  0    60   ~ 0
+vpwr
+Text Label 10550 1250 0    60   ~ 0
+gndpwr
 $EndSCHEMATC
