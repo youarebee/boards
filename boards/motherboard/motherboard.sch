@@ -542,7 +542,7 @@ F 3 "" H 3150 3100 50  0000 C CNN
 	1    3150 3100
 	1    0    0    -1  
 $EndComp
-Text Label 3050 2950 0    60   ~ 0
+Text Label 3150 2950 0    60   ~ 0
 vcc
 $Comp
 L R R11
