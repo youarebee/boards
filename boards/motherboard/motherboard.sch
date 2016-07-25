@@ -982,56 +982,56 @@ gndpwr
 $Comp
 L CONN_01X02 CN1
 U 1 1 5791F965
-P 6950 3050
-F 0 "CN1" H 6950 3200 50  0000 C CNN
-F 1 "CONN_01X02" V 7050 3050 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 6950 3050 50  0000 C CNN
-F 3 "" H 6950 3050 50  0000 C CNN
-	1    6950 3050
+P 7750 3200
+F 0 "CN1" H 7750 3350 50  0000 C CNN
+F 1 "CONN_01X02" V 7850 3200 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7750 3200 50  0000 C CNN
+F 3 "" H 7750 3200 50  0000 C CNN
+	1    7750 3200
 	0    -1   1    0   
 $EndComp
 $Comp
 L CONN_01X02 CN2
 U 1 1 57920C53
-P 3350 3050
-F 0 "CN2" H 3350 3200 50  0000 C CNN
-F 1 "CONN_01X02" V 3450 3050 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3350 3050 50  0000 C CNN
-F 3 "" H 3350 3050 50  0000 C CNN
-	1    3350 3050
+P 3800 3250
+F 0 "CN2" H 3800 3400 50  0000 C CNN
+F 1 "CONN_01X02" V 3900 3250 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3800 3250 50  0000 C CNN
+F 3 "" H 3800 3250 50  0000 C CNN
+	1    3800 3250
 	0    -1   1    0   
 $EndComp
 $Comp
 L CONN_01X02 CN4
 U 1 1 5792107E
-P 7300 5550
-F 0 "CN4" H 7300 5700 50  0000 C CNN
-F 1 "CONN_01X02" V 7400 5550 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7300 5550 50  0000 C CNN
-F 3 "" H 7300 5550 50  0000 C CNN
-	1    7300 5550
+P 7850 5700
+F 0 "CN4" H 7850 5850 50  0000 C CNN
+F 1 "CONN_01X02" V 7950 5700 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 7850 5700 50  0000 C CNN
+F 3 "" H 7850 5700 50  0000 C CNN
+	1    7850 5700
 	0    -1   1    0   
 $EndComp
 $Comp
 L CONN_01X02 CN3
 U 1 1 5792142A
-P 3400 5350
-F 0 "CN3" H 3400 5500 50  0000 C CNN
-F 1 "CONN_01X02" V 3500 5350 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3400 5350 50  0000 C CNN
-F 3 "" H 3400 5350 50  0000 C CNN
-	1    3400 5350
+P 4350 5450
+F 0 "CN3" H 4350 5600 50  0000 C CNN
+F 1 "CONN_01X02" V 4450 5450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4350 5450 50  0000 C CNN
+F 3 "" H 4350 5450 50  0000 C CNN
+	1    4350 5450
 	0    -1   1    0   
 $EndComp
 $Comp
 L CONN_01X02 CN5
 U 1 1 579214D0
-P 3350 7800
-F 0 "CN5" H 3350 7950 50  0000 C CNN
-F 1 "CONN_01X02" V 3450 7800 50  0001 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3350 7800 50  0000 C CNN
-F 3 "" H 3350 7800 50  0000 C CNN
-	1    3350 7800
+P 4850 7800
+F 0 "CN5" H 4850 7950 50  0000 C CNN
+F 1 "CONN_01X02" V 4950 7800 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 4850 7800 50  0000 C CNN
+F 3 "" H 4850 7800 50  0000 C CNN
+	1    4850 7800
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -1045,4 +1045,59 @@ F 3 "" H 9550 2600 60  0000 C CNN
 	1    9550 2750
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X02 BLK3
+U 1 1 579629B9
+P 9800 850
+F 0 "BLK3" H 9800 1000 50  0000 C CNN
+F 1 "CONN_01X02" V 9900 850 50  0000 C CNN
+F 2 "Connect:bornier2" H 9800 850 50  0000 C CNN
+F 3 "" H 9800 850 50  0000 C CNN
+	1    9800 850 
+	1    0    0    -1  
+$EndComp
+Text Label 9600 800  0    60   ~ 0
+vpwr2
+Text Label 9600 900  0    60   ~ 0
+gnd2
+Text Label 7800 3000 1    60   ~ 0
+vpwr2
+Text Label 7700 3000 1    60   ~ 0
+gnd2
+Text Label 6900 2850 3    60   ~ 0
+gnd2
+Text Label 7000 2850 3    60   ~ 0
+vpwr2
+Text Label 3750 3050 1    60   ~ 0
+gnd2
+Text Label 3850 3050 1    60   ~ 0
+vpwr2
+Text Label 3400 2850 3    60   ~ 0
+vpwr2
+Text Label 3300 2850 3    60   ~ 0
+gnd2
+Text Label 7900 5500 1    60   ~ 0
+vpwr2
+Text Label 4400 5250 1    60   ~ 0
+vpwr2
+Text Label 7800 5500 1    60   ~ 0
+gnd2
+Text Label 4300 5250 1    60   ~ 0
+gnd2
+Text Label 3450 5150 3    60   ~ 0
+vpwr2
+Text Label 3350 5150 3    60   ~ 0
+gnd2
+Text Label 7250 5350 3    60   ~ 0
+gnd2
+Text Label 7350 5350 3    60   ~ 0
+vpwr2
+Text Label 4800 7600 1    60   ~ 0
+gnd2
+Text Label 4900 7600 1    60   ~ 0
+vpwr2
+Text Label 3400 7600 3    60   ~ 0
+vpwr2
+Text Label 3300 7600 3    60   ~ 0
+gnd2
 $EndSCHEMATC
