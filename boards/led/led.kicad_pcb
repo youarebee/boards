@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010f0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerber))
   )
 
   (net 0 "")
@@ -117,11 +117,11 @@
     (add_net "Net-(J1-Pad8)")
   )
 
-  (module Connect:RJ45_8 (layer F.Cu) (tedit 578A20F6) (tstamp 578DA12B)
+  (module Connect:RJ45_8 (layer F.Cu) (tedit 579D1CB6) (tstamp 578DA12B)
     (at 194.945 104.14 90)
     (tags RJ45)
     (path /578A2345)
-    (fp_text reference J1 (at 0.254 4.826 90) (layer F.SilkS)
+    (fp_text reference J1 (at 0.254 4.826 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RJ45 (at 0.14224 -0.1016 180) (layer F.Fab)
@@ -201,13 +201,13 @@
     )
   )
 
-  (module lighting:10wled (layer F.Cu) (tedit 578E284E) (tstamp 578DA119)
+  (module lighting:10wled (layer F.Cu) (tedit 579D1CC9) (tstamp 578DA119)
     (at 149 105)
     (path /578A22E3)
-    (fp_text reference D1 (at 0 4) (layer F.SilkS)
+    (fp_text reference D1 (at 0 4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value LED_RGB (at 0 -4) (layer F.Fab)
+    (fp_text value LED_RGB (at 0 -4) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -10 -10) (end 10 -10) (layer F.SilkS) (width 0.15))
@@ -228,28 +228,28 @@
       (net 6 "Net-(D1-Pad4)"))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 57945989) (tstamp 579107A1)
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 579D1CB1) (tstamp 579107A1)
     (at 169.545 111.76)
     (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (fp_text reference REF1 (at 0 -4.0005) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2-5mm (at 1.00076 5.00126) (layer F.Fab)
+    (fp_text value MountingHole_2-5mm (at 1.00076 5.00126) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.381))
     (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers))
   )
 
-  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 5794598C) (tstamp 578D1FF3)
+  (module Mounting_Holes:MountingHole_3mm (layer F.Cu) (tedit 579D1CA9) (tstamp 578D1FF3)
     (at 169.545 96.52)
     (descr "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (tags "Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,")
     (fp_text reference REF2 (at 0 -4.0005) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value MountingHole_2-5mm (at 1.00076 5.00126) (layer F.Fab)
+    (fp_text value MountingHole_2-5mm (at 1.00076 5.00126) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.381))
@@ -335,9 +335,9 @@
   (segment (start 196.2211 93.7706) (end 196.2211 92.71) (width 0.4) (layer F.Cu) (net 6))
   (segment (start 192.0152 97.9765) (end 196.2211 93.7706) (width 0.4) (layer F.Cu) (net 6))
   (segment (start 197.485 92.71) (end 196.2211 92.71) (width 0.4) (layer F.Cu) (net 6))
-  (segment (start 187.8393 104.6877) (end 190.183 104.6877) (width 0.4) (layer F.Cu) (net 6))
-  (segment (start 185.3866 102.235) (end 187.8393 104.6877) (width 0.4) (layer F.Cu) (net 6))
-  (segment (start 190.183 104.6877) (end 192.0152 102.8555) (width 0.4) (layer F.Cu) (net 6))
+  (segment (start 187.96 104.775) (end 190.246 104.775) (width 0.4) (layer F.Cu) (net 6))
+  (segment (start 185.3866 102.235) (end 187.96 104.775) (width 0.4) (layer F.Cu) (net 6))
+  (segment (start 190.246 104.775) (end 192.0152 102.8555) (width 0.4) (layer F.Cu) (net 6))
   (segment (start 192.0152 102.8555) (end 192.0152 97.9765) (width 0.4) (layer F.Cu) (net 6))
   (segment (start 186.055 102.235) (end 185.3866 102.235) (width 0.4) (layer F.Cu) (net 6))
   (segment (start 160.655 102.235) (end 160.43 102.46) (width 0.4) (layer F.Cu) (net 6))
